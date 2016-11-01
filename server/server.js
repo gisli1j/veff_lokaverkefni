@@ -27,7 +27,6 @@ var COMMENTS_FILE = path.join(__dirname, './comments.json');
 app.get('/api/comments', function(req, res) {
 	debugger
   fs.readFile(COMMENTS_FILE, function(err, data) {
-  	console.log(COMMENTS_FILE);
     if (err) {
       console.error(err);
       process.exit(1);
