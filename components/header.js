@@ -4,8 +4,8 @@ import {ButtonToolbar,Button} from 'react-bootstrap'
 var header = React.createClass({
       render: function() {
         var hdstyle={
-          border:'solid red',
-          backgroundColor: 'Crimson',
+          border:'red',
+          backgroundColor: '#3366ff',
           fontSize: 45
         };
         return (

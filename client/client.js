@@ -1,6 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
-import App from '../components/App'
+import routerr from '../components/roterr'
 
 
-render(<App/>, document.getElementById('app'));
+render(<routerr/>, document.getElementById('app'));

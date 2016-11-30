@@ -3,13 +3,16 @@ import { render } from 'react-dom'
 import CommentBox from './CommentBox'
 import Header from './header'
 import Footer from './Footer'
+import Petrol from './Petrol'
+
+
 
 var App = React.createClass({
   render: function(){
     return (
     <div>
      <Header />
-     <CommentBox url="/api/comments" pollInterval={2000} />
+     {this.props.children}
      <Footer />
     </div>
   );
